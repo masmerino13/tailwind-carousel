@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+
+.carousel-content {
+  @apply flex justify-center h-full w-full text-gray-800 text-3xl text-center pt-5 items-center;
+}
+
+.prev-nav {
+  @apply w-10 h-10 ml-2 absolute cursor-pointer hidden text-3xl font-bold text-black  rounded-full bg-white  leading-tight text-center z-10 inset-y-0 left-0 my-auto;
+}
+
+.prev-nav:hover {
+  @apply text-white bg-blue-700;
+}
+
+@screen md {
+  .prev-nav {
+    @apply ml-10;
+  }
+}
+
+@tailwind utilities;

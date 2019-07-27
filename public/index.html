@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="build/app.css">
+  <link rel="stylesheet" href="build/carousel.css">
+</head>
+<body class="bg-gray-300 font-sans leading-normal tracking-normal h-screen">
+
+  <div class="carousel relative shadow-2xl h-screen">
+    <div class="carousel-inner relative overflow-hidden w-full h-screen">
+      <!--Slide 1-->
+      <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
+      <div class="carousel-item absolute opacity-0 h-screen">
+        <div class="carousel-content">
+          <div class="p-6">
+            <div class="text-center">
+              <h1 class="text-5xl">
+                Introduccion a TailwindCSS <p class="text-2xl font-bold">By Ricardo Merino</p>
+              </h1>
+              <p class="text-base">Fullstack Developer</p>
+              <p class="text-base">@masmerinosv</p>
+              <p class="text-base">masmerino.dev</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <label for="carousel-3" class="prev control-1 prev-nav ">‹</label>
+      <label for="carousel-2" class="next control-1 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
+      
+      <!--Slide 2-->
+      <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+      <div class="carousel-item absolute opacity-0 h-screen">
+        <div class="carousel-content">
+            <div class="p-6">
+              <div class="text-center">
+                <h1 class="text-5xl">Que es TailwindCSS</h1>
+                <p class="max-w-2xl text-justify">Es un framework altamente customizable para el desarrollo rápido de interfaces personalizadas.</p>
+              </div>
+            </div>
+        </div>
+      </div>
+      <label for="carousel-1" class="prev control-2 prev-nav">‹</label>
+      <label for="carousel-3" class="next control-2 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label> 
+      
+      <!--Slide 3-->
+      <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+      <div class="carousel-item absolute opacity-0 h-screen">
+        <div class="carousel-content">
+            <div class="p-6">
+              <div class="text-center">
+                <h1 class="text-5xl">Como usar TailwindCSS?</h1>
+                <p class="max-w-2xl text-justify">Con TailwindCSS das estilo a tus elementos usando clases pre-definidas directamente en el HTML sin escribir (a veces poco) CSS directamente.</p>
+              </div>
+            </div>
+        </div>
+      </div>
+      <label for="carousel-2" class="prev control-3 prev-nav">‹</label>
+      <label for="carousel-4" class="next control-3 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
+
+      <!--Slide 4-->
+      <input class="carousel-open" type="radio" id="carousel-4" name="carousel" aria-hidden="true" hidden="">
+      <div class="carousel-item absolute opacity-0 h-screen">
+        <div class="carousel-content">
+            <div class="p-6">
+              <div class="">
+                <h1 class="text-5xl text-center">Beneficios</h1>
+                <div class="max-w-2xl text-left">
+                  <p>No pierdes tiempo y energía definiendo nombres para tus clases</p>
+                  <p>El CSS nunca crece.</p>
+                  <p>Hacer cambios rápidos y de forma segura</p>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+      <label for="carousel-3" class="prev control-4 prev-nav">‹</label>
+      <label for="carousel-5" class="next control-4 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
+
+      <!--Slide 5-->
+      <input class="carousel-open" type="radio" id="carousel-5" name="carousel" aria-hidden="true" hidden="">
+      <div class="carousel-item absolute opacity-0 h-screen">
+        <div class="carousel-content">
+            <div class="p-6">
+              <div class="">
+                <h1 class="text-5xl text-center">Instalación</h1>
+                <div class="max-w-2xl">
+                  <h3>CDN</h3>
+                  <p>https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css</p>
+                  <h3>NPM</h3>
+                  <p>npm install tailwindcss autoprefixer</p>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+      <label for="carousel-4" class="prev control-5 prev-nav">‹</label>
+      <label for="carousel-6" class="next control-5 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
+
+      <!--Slide 6-->
+      <input class="carousel-open" type="radio" id="carousel-6" name="carousel" aria-hidden="true" hidden="">
+      <div class="carousel-item absolute opacity-0 h-screen">
+        <div class="carousel-content">
+            <div class="p-6">
+              <div class="">
+                <h1 class="text-5xl text-center">Let's rock!</h1>
+                <div class="max-w-2xl">
+                  <img src="https://media.giphy.com/media/MdA16VIoXKKxNE8Stk/source.gif" alt="">
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+      <label for="carousel-5" class="prev control-6 prev-nav">‹</label>
+      <label for="carousel-1" class="next control-6 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
+        
+    </div>
+  </div>
+</body>
+</html>
