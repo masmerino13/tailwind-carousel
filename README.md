@@ -1,7 +1,7 @@
 # tailwind-carousel
 Presentacion sobre tailwind
 
-##Como correr el proyecto
+#Como correr el proyecto
 
 1. Clonar el repo
 2. Run `npm install`
